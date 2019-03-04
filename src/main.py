@@ -12,7 +12,7 @@ logger = setup_logger(logger_name='main', logger_path='logger')
 
 
 def main():
-    subject = "%s_FUND_INFO" % time.strftime("%Y-%m-%d %H:%M", time.localtime()) 
+    subject = "%s_基信息" % time.strftime("%Y-%m-%d %H:%M", time.localtime()) 
     content = []
 
     for fund_info in FUND_NICK_LIST:

@@ -34,7 +34,7 @@ def send_email(subject, content):
 
 
 def main():
-    subject = 'meeting invite'
+    subject = '会议纪要'
     content = 'we will meet tomorrow'
     send_email(subject, content)
 
